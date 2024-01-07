@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-сланцы-e",
+  "editForm": "i-i-s-magaz-сланцы-e",
+  "external": false,
+  "caption": "Сланцы",
+  "name": "IISMagazСланцыL",
+  "className": "СланцыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-сланцы",
+      "modelProjection": "СланцыL"
+    }
+  ]
+}

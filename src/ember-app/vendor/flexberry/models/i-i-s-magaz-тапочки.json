@@ -1,0 +1,110 @@
+﻿{
+  "name": "IISMagazТапочки",
+  "modelName": "i-i-s-magaz-тапочки",
+  "className": "Тапочки",
+  "nameSpace": "IIS.Magaz",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодТапочек",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "стоимость",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "харТапочек",
+      "relatedTo": "i-i-s-magaz-хар-тапочек",
+      "inverse": "тапочки"
+    }
+  ],
+  "projections": [
+    {
+      "name": "ТапочкиE",
+      "modelName": "i-i-s-magaz-тапочки",
+      "attrs": [
+        {
+          "name": "кодТапочек",
+          "caption": "Код тапочек",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "ХарТапочекE",
+          "caption": "Хар тапочек",
+          "name": "харТапочек",
+          "relatedTo": "i-i-s-magaz-хар-тапочек",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "ТапочкиL",
+      "modelName": "i-i-s-magaz-тапочки",
+      "attrs": [
+        {
+          "name": "кодТапочек",
+          "caption": "Код тапочек",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "стоимость",
+          "caption": "Стоимость",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

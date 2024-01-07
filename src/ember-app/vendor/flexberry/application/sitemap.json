@@ -1,0 +1,71 @@
+﻿{
+  "applicationCaption": "Magaz",
+  "applicationTitle": "Magaz",
+  "items": [
+    {
+      "link": null,
+      "menuName": "magaz",
+      "caption": "Magaz",
+      "title": "Magaz",
+      "children": [
+        {
+          "link": "i-i-s-magaz-сланцы-l",
+          "menuName": null,
+          "caption": "Сланцы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-заказы-l",
+          "menuName": null,
+          "caption": "Заказы",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-сотрудник-l",
+          "menuName": null,
+          "caption": "Сотрудник",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-адрес-l",
+          "menuName": null,
+          "caption": "Адрес",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-тапочки-l",
+          "menuName": null,
+          "caption": "Тапочки",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-должность-l",
+          "menuName": null,
+          "caption": "Должность",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-категория-l",
+          "menuName": null,
+          "caption": "Категория",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-magaz-клиенты-l",
+          "menuName": null,
+          "caption": "Клиенты",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

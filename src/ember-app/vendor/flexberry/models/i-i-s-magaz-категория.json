@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISMagazКатегория",
+  "modelName": "i-i-s-magaz-категория",
+  "className": "Категория",
+  "nameSpace": "IIS.Magaz",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "кодКатегории",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "наименование",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "КатегорияE",
+      "modelName": "i-i-s-magaz-категория",
+      "attrs": [
+        {
+          "name": "кодКатегории",
+          "caption": "Код категории",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "КатегорияL",
+      "modelName": "i-i-s-magaz-категория",
+      "attrs": [
+        {
+          "name": "кодКатегории",
+          "caption": "Код категории",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "наименование",
+          "caption": "Наименование",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

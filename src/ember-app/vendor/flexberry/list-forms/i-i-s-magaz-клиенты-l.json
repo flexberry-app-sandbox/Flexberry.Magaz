@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-клиенты-e",
+  "editForm": "i-i-s-magaz-клиенты-e",
+  "external": false,
+  "caption": "Клиенты",
+  "name": "IISMagazКлиентыL",
+  "className": "КлиентыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-клиенты",
+      "modelProjection": "КлиентыL"
+    }
+  ]
+}

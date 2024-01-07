@@ -1,0 +1,1 @@
+docker-compose -p magaz up -d

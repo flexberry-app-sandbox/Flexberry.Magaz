@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-категория-e",
+  "editForm": "i-i-s-magaz-категория-e",
+  "external": false,
+  "caption": "Категория",
+  "name": "IISMagazКатегорияL",
+  "className": "КатегорияL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-категория",
+      "modelProjection": "КатегорияL"
+    }
+  ]
+}

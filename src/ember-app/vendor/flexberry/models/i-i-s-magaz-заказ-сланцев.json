@@ -1,0 +1,55 @@
+﻿{
+  "name": "IISMagazЗаказСланцев",
+  "modelName": "i-i-s-magaz-заказ-сланцев",
+  "className": "ЗаказСланцев",
+  "nameSpace": "IIS.Magaz",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "комментарий",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "сланцы",
+      "relatedTo": "i-i-s-magaz-сланцы",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказы",
+      "relatedTo": "i-i-s-magaz-заказы",
+      "inverse": "заказСланцев"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ЗаказСланцевE",
+      "modelName": "i-i-s-magaz-заказ-сланцев",
+      "attrs": [
+        {
+          "name": "комментарий",
+          "caption": "Комментарий",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

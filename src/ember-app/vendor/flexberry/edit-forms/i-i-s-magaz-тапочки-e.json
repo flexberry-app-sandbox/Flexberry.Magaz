@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Тапочки",
+  "name": "IISMagazТапочкиE",
+  "className": "ТапочкиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-тапочки",
+      "modelProjection": "ТапочкиE"
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+﻿{
+  "name": "IISMagazАдрес",
+  "modelName": "i-i-s-magaz-адрес",
+  "className": "Адрес",
+  "nameSpace": "IIS.Magaz",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "город",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "дом",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "индекс",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "квартира",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "кодАдреса",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "улица",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "АдресE",
+      "modelName": "i-i-s-magaz-адрес",
+      "attrs": [
+        {
+          "name": "кодАдреса",
+          "caption": "Код адреса",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "город",
+          "caption": "Город",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "улица",
+          "caption": "Улица",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "дом",
+          "caption": "Дом",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "квартира",
+          "caption": "Квартира",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "индекс",
+          "caption": "Индекс",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "АдресL",
+      "modelName": "i-i-s-magaz-адрес",
+      "attrs": [
+        {
+          "name": "кодАдреса",
+          "caption": "Код адреса",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "город",
+          "caption": "Город",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "улица",
+          "caption": "Улица",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "дом",
+          "caption": "Дом",
+          "hidden": false,
+          "index": 3
+        },
+        {
+          "name": "квартира",
+          "caption": "Квартира",
+          "hidden": false,
+          "index": 4
+        },
+        {
+          "name": "индекс",
+          "caption": "Индекс",
+          "hidden": false,
+          "index": 5
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

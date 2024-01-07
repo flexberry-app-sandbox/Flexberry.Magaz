@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-тапочки-e",
+  "editForm": "i-i-s-magaz-тапочки-e",
+  "external": false,
+  "caption": "Тапочки",
+  "name": "IISMagazТапочкиL",
+  "className": "ТапочкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-тапочки",
+      "modelProjection": "ТапочкиL"
+    }
+  ]
+}

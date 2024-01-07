@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Категория",
+  "name": "IISMagazКатегорияE",
+  "className": "КатегорияE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-категория",
+      "modelProjection": "КатегорияE"
+    }
+  ]
+}

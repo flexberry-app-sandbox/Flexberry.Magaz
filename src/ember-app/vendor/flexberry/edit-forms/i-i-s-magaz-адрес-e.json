@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Адрес",
+  "name": "IISMagazАдресE",
+  "className": "АдресE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-адрес",
+      "modelProjection": "АдресE"
+    }
+  ]
+}

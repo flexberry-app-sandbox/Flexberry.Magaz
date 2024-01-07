@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISMagazЗаказыE",
+  "className": "ЗаказыE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-заказы",
+      "modelProjection": "ЗаказыE"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-заказы-e",
+  "editForm": "i-i-s-magaz-заказы-e",
+  "external": false,
+  "caption": "Заказы",
+  "name": "IISMagazЗаказыL",
+  "className": "ЗаказыL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-заказы",
+      "modelProjection": "ЗаказыL"
+    }
+  ]
+}

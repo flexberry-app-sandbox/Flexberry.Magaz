@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-должность-e",
+  "editForm": "i-i-s-magaz-должность-e",
+  "external": false,
+  "caption": "Должность",
+  "name": "IISMagazДолжностьL",
+  "className": "ДолжностьL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-должность",
+      "modelProjection": "ДолжностьL"
+    }
+  ]
+}

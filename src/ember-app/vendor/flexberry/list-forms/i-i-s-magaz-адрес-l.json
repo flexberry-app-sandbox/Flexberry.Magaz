@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-magaz-адрес-e",
+  "editForm": "i-i-s-magaz-адрес-e",
+  "external": false,
+  "caption": "Адрес",
+  "name": "IISMagazАдресL",
+  "className": "АдресL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-magaz-адрес",
+      "modelProjection": "АдресL"
+    }
+  ]
+}
